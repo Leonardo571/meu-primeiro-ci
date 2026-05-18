@@ -11,4 +11,4 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Mostrar mensagem
-      run: echo "Pipeline funcionando com sucesso!"
+      run: echo "Olá turma!"
