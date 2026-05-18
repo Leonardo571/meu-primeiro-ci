@@ -1,0 +1,14 @@
+name: MEu Pipeline CI
+on:
+  push:
+     branches:
+      - main
+jobs:
+  verificar:
+   runs-on: ubuntu lastest
+   steps:
+    - name: Baixar projeto
+      uses: actions/checkout@v4
+
+    - name: Mostrar mensagem
+      run: echo "Pipeline funcionando com sucesso!"
