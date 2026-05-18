@@ -1,4 +1,4 @@
-name: MEu Pipeline CI
+name: Meu Pipeline CI
 on:
   push:
      branches:
